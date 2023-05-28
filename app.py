@@ -217,6 +217,9 @@ def main():
         st.subheader("Dissolved Gasses Map")
         st.caption("Select a pin to select a substation")
         st.markdown(' ')
+        st.markdown(' ')
+        st.markdown(' ')
+        st.markdown(' ')
 
         # Update the map
         updated_map = filter_points(selected_states)
