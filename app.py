@@ -15,6 +15,15 @@ import os
 
 st.set_page_config(layout='wide', page_title="Power Transformer DGA Monitoring", initial_sidebar_state='expanded')
 
+
+hide_streamlit_style = """
+            <style>
+            [data-testid="stToolbar"] {visibility: hidden !important;}
+            footer {visibility: hidden !important;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 # re-arrange data
 df = pd.read_csv('all bank 1.csv')
 df['DATE'] = pd.to_datetime(df['DATE'])
