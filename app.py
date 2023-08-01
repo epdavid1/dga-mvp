@@ -12,6 +12,8 @@ from style import Style
 import time
 import multiprocessing as mp
 import os
+st.set_page_config(layout='wide', page_title="Power Transformer DGA Monitoring", initial_sidebar_state='expanded')
+
 
 hide_streamlit_style = """
             <style>
@@ -22,7 +24,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
-st.set_page_config(layout='wide', page_title="Power Transformer DGA Monitoring", initial_sidebar_state='expanded')
+
 
 # re-arrange data
 df = pd.read_csv('all bank 1.csv')
