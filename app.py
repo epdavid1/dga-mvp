@@ -214,7 +214,7 @@ def main():
 
         
     with chart_col:
-        st.subheader("Dissolved Gasses Map")
+        st.subheader("Power Transformer Map")
         st.caption("Select a pin to select a substation: ")
         st.markdown(" ")
         st.markdown(" ")      
