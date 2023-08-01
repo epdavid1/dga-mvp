@@ -118,7 +118,7 @@ def fault_score(df, address, lat, lng):
     st.markdown(style.style_metric(), unsafe_allow_html=True)
 
     with container:
-        st.markdown("<h2>Real-time Dissolved Gas Analysis</h2>", unsafe_allow_html=True)        
+        st.markdown("<h2>Transformer Dissolved Gas Monitoring</h2>", unsafe_allow_html=True)        
         st.caption(f"As of {get_current_time()}")
     
     
