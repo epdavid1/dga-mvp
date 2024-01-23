@@ -162,7 +162,7 @@ def fault_score(df, address, lat, lng):
         if round(delta[0][3]*100) == 0:
             st.metric(label='Normal', value=str(round(score[0][3]*100))+"%")
         else:
-            st.metric(label='Normal', value=str(round(score[0][3]*100))+"%", delta=str(round(delta[0][3]*100))+" %", delta_color='inverse')
+            st.metric(label='Normal', value=str(round(score[0][3]*100))+"%", delta=str(round(delta[0][3]*100))+" %")
 
 def main():
    
