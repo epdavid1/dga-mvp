@@ -167,9 +167,9 @@ def fault_score(df, address, lat, lng):
 def main():
    
     # will be used to select colors
-    states = ['Normal - Follow planned maintenance', 
-              'Caution - Schedule maintenance within 7 days.', 
-              'Hazardous - Schedule maintenance within 48 hours.']
+    states = [':large_green_circle: Normal - Follow planned maintenance', 
+              ':large_orange_circle: Caution - Schedule maintenance within 7 days.', 
+              ':red_circle: Hazardous - Schedule maintenance within 48 hours.']
     colors = ['darkgreen', '#d45800', 'darkred']
 
 
